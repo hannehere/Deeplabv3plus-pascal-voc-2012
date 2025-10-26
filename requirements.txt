@@ -38,6 +38,9 @@ py-cpuinfo>=9.0.0
 # Uncomment the following lines if using TPU:
 # torch-xla>=2.0.0
 # cloud-tpu-client>=0.10
+#
+# Note: torch_xla API compatibility handled in code
+# Supports both old (xrt_world_size) and new (get_world_size) APIs
 
 # 📊 Optional Weights & Biases Integration
 # Uncomment if you want experiment tracking:
