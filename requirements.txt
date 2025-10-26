@@ -1,0 +1,57 @@
+# 🏙️ DeepLabv3+ Semantic Segmentation - Requirements
+# Complete dependencies for both PASCAL VOC 2012 and Cityscapes implementations
+
+# 🔥 Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# 🖼️ Computer Vision & Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+albumentations>=1.3.1
+scikit-image>=0.21.0
+
+# 📊 Scientific Computing & Data
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 📁 Dataset & File Management
+kagglehub>=0.2.0
+tqdm>=4.65.0
+pathlib
+
+# 🧪 Jupyter Notebook Support
+jupyter>=1.0.0
+notebook>=6.5.0
+ipywidgets>=8.0.0
+
+# 🔧 Utilities & Debugging
+psutil>=5.9.0
+GPUtil>=1.4.0
+py-cpuinfo>=9.0.0
+
+# 🚀 Optional TPU Support (for Cityscapes on Kaggle)
+# Uncomment the following lines if using TPU:
+# torch-xla>=2.0.0
+# cloud-tpu-client>=0.10
+
+# 📊 Optional Weights & Biases Integration
+# Uncomment if you want experiment tracking:
+# wandb>=0.15.0
+
+# 🎨 Optional Advanced Visualization  
+# Uncomment for enhanced plotting:
+# plotly>=5.15.0
+# bokeh>=3.2.0
+
+# 💾 Optional Model Export
+# Uncomment for ONNX export support:
+# onnx>=1.14.0
+# onnxruntime>=1.15.0
+
+# Minimum Python version: 3.8+
+# Recommended Python version: 3.9 or 3.10
